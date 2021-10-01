@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 2rem;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(30deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    font-family: system-ui, sans-serif;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 19px 1px black;
+    width: 400px;
+    height: 600px;
+    border-radius: 1rem;
+    margin: 40px auto;
+}
+
+p {
+    transform: translate(0, -450%);
+    font-weight: 700;
+    font-size: 42px;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.buttons {
+    transform: translate(0, 110%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+    border: 0;
+    border-radius: 1rem;
+    width: 200px;
+}
+
+button:hover {
+    background-color: peachpuff;
+}
+
+
+.counterDisplay {
+    font-size: 240px;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
